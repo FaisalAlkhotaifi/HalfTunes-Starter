@@ -38,6 +38,7 @@
   var backgroundSessionCompleteHandler: (() -> Void)?
   
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    // To customize Appearance of the UISearch bar and UINavigation bar
     customizeAppearance()
     return true
   }
